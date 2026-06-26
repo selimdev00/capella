@@ -10,8 +10,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-// Lets `next dev` talk to the OpenNext Cloudflare adapter so local dev
-// matches the deployed Worker (bindings, runtime).
-import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
-initOpenNextCloudflareForDev();
